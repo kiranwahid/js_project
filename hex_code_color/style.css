@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+    font-family: 'Comfortaa', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    animation: changeColor 5s infinite alternate;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #252424;
+    margin-bottom: 10px;
+}
+
+#btn{
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+
+@keyframes changeColor {
+    0% {
+        color: #ff6347; /* Tomato */
+    }
+    20% {
+        color: #4682b4; /* SteelBlue */
+    }
+    40% {
+        color: #32cd32; /* LimeGreen */
+    }
+    60% {
+        color: #ffa500; /* Orange */
+    }
+    80% {
+        color: #8a2be2; /* BlueViolet */
+    }
+    100% {
+        color: #ff1493; /* DeepPink */
+    }
+}
